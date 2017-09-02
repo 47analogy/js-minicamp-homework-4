@@ -1,0 +1,17 @@
+Callback Functions  - A function that is passed as an argument to another function
+
+i.e 
+function sumArray(numbers, cb) 
+
+numbers is an array argument, whereas cb is a callback function
+
+
+Closure - a local variable for a function, but kept 'alive' after a function has returned. Can be used to make wrappers...related to problems with scope. (Need to talk with someone about this)
+
+arguments - the values passed to a function
+
+Recursion - basically calling the same function within itself. Recursion can be used in many of the situations where a loop is used. This will be very helpful for using programming related to math (need a base case where a certain condition will stop the function).
+
+prototype - a way to add or modify a method to an object. For example, say there is a constructor with tons of information for tons of people(users). Instead of having to call up every user (memeory/time drain), prototypes adds a method to every user created
+ 
+Constructors - A type of function used to create a type of object. They use the 'this' keyword to assign properties to the new object (always use a capital letter on the constructor name). A helpful use for constructors is a scenario where new users are signing up for a website.
